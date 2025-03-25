@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Certificate</title>
+    <style>
+        body {
+            background-color: azure;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .receipt-container {
+            width: 80%;
+            border: 1px solid #444;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .brand-logo {
+            width: 100px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .brand-title {
+            text-align: center;
+            font-size: 18px;
+            margin-top: 10px;
+            color: #2c3e50; 
+        }
+
+        .main-title {
+            text-align: center;
+            font-size: 24px;
+            margin: 20px 0;
+            color: #2980b9; 
+        }
+
+        .header-info {
+            text-align: center;
+            font-size: 16px;
+            margin-bottom: 20px;
+            color: #8e44ad; 
+        }
+
+        .receipt-body {
+            text-align: center;
+            font-size: 18px;
+            color: #34495e; 
+        }
+
+        .certificate-details {
+            margin: 20px 0;
+            font-size: 16px;
+            text-align: justify;
+            color: #1e0a50; 
+        }
+
+        .signature-section {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+            padding-top: 20px;
+        }
+
+        .signature {
+            text-align: center;
+            width: 30%;
+        }
+
+        .stamp {
+            width: 100px;
+            margin: 20px 0;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            font-size: 20px;
+            background-color: rgb(188, 201, 123); 
+            color: white; 
+            margin-top: 30px;
+        }
+
+
+        @media screen and (max-width: 768px) {
+            .receipt-container {
+                width: 90%;
+                padding: 15px;
+            }
+
+            .brand-logo {
+                width: 80px;
+            }
+
+            .brand-title, .main-title, .header-info, .certificate-details {
+                font-size: 14px;
+            }
+
+            .main-title {
+                font-size: 20px;
+            }
+
+            .signature-section {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .signature {
+                width: 80%;
+                margin-bottom: 15px;
+            }
+
+            .footer {
+                font-size: 16px;
+                padding: 15px 0;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .receipt-container {
+                width: 95%;
+                padding: 10px;
+            }
+
+            .brand-logo {
+                width: 60px;
+            }
+
+            .brand-title, .main-title, .header-info, .certificate-details {
+                font-size: 12px;
+            }
+
+            .main-title {
+                font-size: 18px;
+            }
+
+            .signature-section {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .signature {
+                width: 90%;
+                margin-bottom: 10px;
+            }
+
+            .footer {
+                font-size: 14px;
+                padding: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="receipt-container">
+        <img src="svit.png" alt="Logo" class="brand-logo">
+
+        <h2 class="brand-title">
+            Loknete Dr. Balasaheb Vikhe Patil (Padma Bhushan Awardee)
+        </h2>
+        <h3 class="brand-title">
+            Pravara Rural Education Society's
+        </h3>
+        <h1 class="main-title">
+            Sir Visvesvaraya Institute of Technology, Nashik
+        </h1>
+
+        <div class="header-info">
+            <p>A/P Chincholi, Tal. Sinnar, Dist. Nashik</p>
+            <p>Horizon 2k24</p>
+        </div>
+
+        <h1 class="main-title">Annual Sports Meet</h1>
+        <h2 class="main-title">Certificate</h2>
+
+        <div class="receipt-body">
+            <h1 class="certificate-details">
+                This is to certify that Mr./Miss TOCHE NIKITA KISAN of the Computer Department has been awarded 1st place as a winner in the event Dodge Ball, during the Inter-Collegiate/Annual Sports held from 4th to 9th March 2024.
+            </h1>
+
+            <div class="signature-section">
+                <div class="signature">
+                    <img src="sign1.png" class="stamp" alt="Signature">
+                    <p>Dr. Viresh B. Parkhe <br> Sports Co-ordinator</p>
+                </div>
+                <div class="signature">
+                    <img src="sign2.png" class="stamp" alt="Signature">
+                    <p>Mr. Rushikesh S. Bhalerao <br> Gathering Co-ordinator</p>
+                </div>
+                <div class="signature">
+                    <img src="sign3.png" class="stamp" alt="Signature">
+                    <p>Dr. Ganesh B. Shinde <br> Principal</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Thank you!!</p>
+        </div>
+    </div>
+</body>
+</html>
